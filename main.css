@@ -1,0 +1,35 @@
+#content
+{
+    background: lightblue;
+    margin: 0 auto;
+    width:800px;
+}
+@media screen and (max-width: 800px)
+{
+    #content
+    {
+        width: 100%;
+    }
+}
+.header
+{
+    border: 5px;
+    padding: 30px;
+    background: aliceblue;
+}
+.list
+{
+    margin: 0;
+    border: 5px;
+    padding: 30px;
+    background: darkgray;
+}
+.item
+{
+    background: aqua;
+}
+.item:hover
+{
+    background: beige;
+}
+@media

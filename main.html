@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Список дел</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1> Список дел</h1>
-    <input type="text" value="Введите дело"/>
-    <button> Добавить </button>
-    <ol>
-        <li>
+    <div class="header">
+        <h1> Список дел</h1>
+        <input type="text" value="Введите дело"/>
+        <button> Добавить </button>
+    </div>
 
+    <ol class="list">
+        <li class="item">
             <label type="string">
                 <input type="checkbox">
                 Почесать кошку
             </label>
             <button type="button"> X </button>
         </li>
-        <li>
+        <li class="item">
             <label type="string">
                 <input type="checkbox">
                 Купить картошку
@@ -25,6 +28,7 @@
             <button type="button"> X </button>
         </li>
     </ol>
+
 
 </body>
 </html>
