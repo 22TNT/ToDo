@@ -1,4 +1,4 @@
-#content
+body
 {
     background: lightblue;
     margin: 0 auto;
@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 800px)
 {
-    #content
+    body
     {
         width: 100%;
     }
