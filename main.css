@@ -1,16 +1,21 @@
 body
 {
     background: lightblue;
-    margin: 0 auto;
-    width:800px;
+    margin: 0;
 }
-@media screen and (max-width: 800px)
+@media screen and (max-width: 400px)
 {
-    body
+    .container
     {
         width: 100%;
     }
 }
+.container
+{
+    width: 400px;
+    margin: 0 auto;
+}
+
 .header
 {
     border: 5px;
@@ -32,4 +37,3 @@ body
 {
     background: beige;
 }
-@media

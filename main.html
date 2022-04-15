@@ -5,30 +5,22 @@
     <title>Список дел</title>
     <link rel="stylesheet" href="main.css">
 </head>
+<script src = "main.js"></script>
 <body>
+<div class="container">
     <div class="header">
         <h1> Список дел</h1>
-        <input type="text" value="Введите дело"/>
-        <button> Добавить </button>
+        <input id="input" type="text" value="Введите дело"/>
+        <button onclick="btnAddOnClick()"> Добавить </button>
     </div>
+    <div class = "filters">
+        <button onclick="btnFilter('ALL')"> Все </button>
+        <button onclick="btnFilter('CHECKED')"> Законченные </button>
+        <button onclick="btnFilter('UNCHECKED')"> Незаконченные </button>
 
-    <ol class="list">
-        <li class="item">
-            <label type="string">
-                <input type="checkbox">
-                Почесать кошку
-            </label>
-            <button type="button"> X </button>
-        </li>
-        <li class="item">
-            <label type="string">
-                <input type="checkbox">
-                Купить картошку
-            </label>
-            <button type="button"> X </button>
-        </li>
+    </div>
+    <ol class="list" id="list">
     </ol>
-
-
+</div>
 </body>
 </html>
